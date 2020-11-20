@@ -37,7 +37,7 @@ app.get('/about', (req, res) => {
 
 app.get('/help', (req, res) => {
     res.render('help', {
-        text: 'This is a helpful text.',
+        text: 'This is some helpful text.',
         title: 'Help',
         name: 'Moremi Morakinyo'
     });
